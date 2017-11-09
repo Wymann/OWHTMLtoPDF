@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A0967191FB42AC200DBFFB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0967181FB42AC200DBFFB8 /* AppDelegate.m */; };
+		5A09671C1FB42AC200DBFFB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A09671B1FB42AC200DBFFB8 /* ViewController.m */; };
+		5A09671F1FB42AC200DBFFB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A09671D1FB42AC200DBFFB8 /* Main.storyboard */; };
+		5A0967211FB42AC200DBFFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967201FB42AC200DBFFB8 /* Assets.xcassets */; };
+		5A0967241FB42AC200DBFFB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967221FB42AC200DBFFB8 /* LaunchScreen.storyboard */; };
+		5A0967271FB42AC200DBFFB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0967261FB42AC200DBFFB8 /* main.m */; };
+		5A0967311FB42AC200DBFFB8 /* OWHTMLtoPDFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0967301FB42AC200DBFFB8 /* OWHTMLtoPDFTests.m */; };
+		5A09673C1FB42AC200DBFFB8 /* OWHTMLtoPDFUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A09673B1FB42AC200DBFFB8 /* OWHTMLtoPDFUITests.m */; };
+		5A09674C1FB42B0700DBFFB8 /* OWPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A09674A1FB42B0700DBFFB8 /* OWPDFViewController.m */; };
+		5A09674D1FB42B0700DBFFB8 /* OWPDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A09674B1FB42B0700DBFFB8 /* OWPDFViewController.xib */; };
+		5A0967551FB42D6400DBFFB8 /* propertyHTML.html in Resources */ = {isa = PBXBuildFile; fileRef = 5A09674F1FB42D6400DBFFB8 /* propertyHTML.html */; };
+		5A0967561FB42D6400DBFFB8 /* NDHTMLtoPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0967521FB42D6400DBFFB8 /* NDHTMLtoPDF.m */; };
+		5A0967571FB42D6400DBFFB8 /* OWHTMLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0967541FB42D6400DBFFB8 /* OWHTMLFileManager.m */; };
+		5A0967831FB436AE00DBFFB8 /* fftoast_dismiss.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09675B1FB436AE00DBFFB8 /* fftoast_dismiss.png */; };
+		5A0967841FB436AE00DBFFB8 /* fftoast_dismiss@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09675C1FB436AE00DBFFB8 /* fftoast_dismiss@2x.png */; };
+		5A0967851FB436AE00DBFFB8 /* fftoast_dismiss@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09675D1FB436AE00DBFFB8 /* fftoast_dismiss@3x.png */; };
+		5A0967861FB436AE00DBFFB8 /* fftoast_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09675E1FB436AE00DBFFB8 /* fftoast_error.png */; };
+		5A0967871FB436AE00DBFFB8 /* fftoast_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09675F1FB436AE00DBFFB8 /* fftoast_error@2x.png */; };
+		5A0967881FB436AE00DBFFB8 /* fftoast_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967601FB436AE00DBFFB8 /* fftoast_error@3x.png */; };
+		5A0967891FB436AE00DBFFB8 /* fftoast_error_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967611FB436AE00DBFFB8 /* fftoast_error_highlight.png */; };
+		5A09678A1FB436AE00DBFFB8 /* fftoast_error_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967621FB436AE00DBFFB8 /* fftoast_error_highlight@2x.png */; };
+		5A09678B1FB436AE00DBFFB8 /* fftoast_error_highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967631FB436AE00DBFFB8 /* fftoast_error_highlight@3x.png */; };
+		5A09678C1FB436AE00DBFFB8 /* fftoast_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967641FB436AE00DBFFB8 /* fftoast_info.png */; };
+		5A09678D1FB436AE00DBFFB8 /* fftoast_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967651FB436AE00DBFFB8 /* fftoast_info@2x.png */; };
+		5A09678E1FB436AE00DBFFB8 /* fftoast_info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967661FB436AE00DBFFB8 /* fftoast_info@3x.png */; };
+		5A09678F1FB436AE00DBFFB8 /* fftoast_info_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967671FB436AE00DBFFB8 /* fftoast_info_highlight.png */; };
+		5A0967901FB436AE00DBFFB8 /* fftoast_info_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967681FB436AE00DBFFB8 /* fftoast_info_highlight@2x.png */; };
+		5A0967911FB436AE00DBFFB8 /* fftoast_info_highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967691FB436AE00DBFFB8 /* fftoast_info_highlight@3x.png */; };
+		5A0967921FB436AE00DBFFB8 /* fftoast_success.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09676A1FB436AE00DBFFB8 /* fftoast_success.png */; };
+		5A0967931FB436AE00DBFFB8 /* fftoast_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09676B1FB436AE00DBFFB8 /* fftoast_success@2x.png */; };
+		5A0967941FB436AE00DBFFB8 /* fftoast_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09676C1FB436AE00DBFFB8 /* fftoast_success@3x.png */; };
+		5A0967951FB436AE00DBFFB8 /* fftoast_success_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09676D1FB436AE00DBFFB8 /* fftoast_success_highlight.png */; };
+		5A0967961FB436AE00DBFFB8 /* fftoast_success_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09676E1FB436AE00DBFFB8 /* fftoast_success_highlight@2x.png */; };
+		5A0967971FB436AE00DBFFB8 /* fftoast_success_highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09676F1FB436AE00DBFFB8 /* fftoast_success_highlight@3x.png */; };
+		5A0967981FB436AE00DBFFB8 /* fftoast_warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967701FB436AE00DBFFB8 /* fftoast_warning.png */; };
+		5A0967991FB436AE00DBFFB8 /* fftoast_warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967711FB436AE00DBFFB8 /* fftoast_warning@2x.png */; };
+		5A09679A1FB436AE00DBFFB8 /* fftoast_warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967721FB436AE00DBFFB8 /* fftoast_warning@3x.png */; };
+		5A09679B1FB436AE00DBFFB8 /* fftoast_warning_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967731FB436AE00DBFFB8 /* fftoast_warning_highlight.png */; };
+		5A09679C1FB436AE00DBFFB8 /* fftoast_warning_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967741FB436AE00DBFFB8 /* fftoast_warning_highlight@2x.png */; };
+		5A09679D1FB436AE00DBFFB8 /* fftoast_warning_highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0967751FB436AE00DBFFB8 /* fftoast_warning_highlight@3x.png */; };
+		5A09679E1FB436AE00DBFFB8 /* NSString+FFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0967781FB436AE00DBFFB8 /* NSString+FFToast.m */; };
+		5A09679F1FB436AE00DBFFB8 /* UIImage+FFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A09677A1FB436AE00DBFFB8 /* UIImage+FFToast.m */; };
+		5A0967A01FB436AE00DBFFB8 /* FFBaseToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A09677D1FB436AE00DBFFB8 /* FFBaseToastView.m */; };
+		5A0967A11FB436AE00DBFFB8 /* FFCentreToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A09677F1FB436AE00DBFFB8 /* FFCentreToastView.m */; };
+		5A0967A21FB436AE00DBFFB8 /* FFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0967821FB436AE00DBFFB8 /* FFToast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A09672D1FB42AC200DBFFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A09670C1FB42AC200DBFFB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A0967131FB42AC200DBFFB8;
+			remoteInfo = OWHTMLtoPDF;
+		};
+		5A0967381FB42AC200DBFFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A09670C1FB42AC200DBFFB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A0967131FB42AC200DBFFB8;
+			remoteInfo = OWHTMLtoPDF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A0967141FB42AC200DBFFB8 /* OWHTMLtoPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OWHTMLtoPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0967171FB42AC200DBFFB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A0967181FB42AC200DBFFB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A09671A1FB42AC200DBFFB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A09671B1FB42AC200DBFFB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A09671E1FB42AC200DBFFB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A0967201FB42AC200DBFFB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A0967231FB42AC200DBFFB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A0967251FB42AC200DBFFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A0967261FB42AC200DBFFB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A09672C1FB42AC200DBFFB8 /* OWHTMLtoPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OWHTMLtoPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0967301FB42AC200DBFFB8 /* OWHTMLtoPDFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWHTMLtoPDFTests.m; sourceTree = "<group>"; };
+		5A0967321FB42AC200DBFFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A0967371FB42AC200DBFFB8 /* OWHTMLtoPDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OWHTMLtoPDFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A09673B1FB42AC200DBFFB8 /* OWHTMLtoPDFUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWHTMLtoPDFUITests.m; sourceTree = "<group>"; };
+		5A09673D1FB42AC200DBFFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A0967491FB42B0700DBFFB8 /* OWPDFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWPDFViewController.h; sourceTree = "<group>"; };
+		5A09674A1FB42B0700DBFFB8 /* OWPDFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWPDFViewController.m; sourceTree = "<group>"; };
+		5A09674B1FB42B0700DBFFB8 /* OWPDFViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OWPDFViewController.xib; sourceTree = "<group>"; };
+		5A09674F1FB42D6400DBFFB8 /* propertyHTML.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = propertyHTML.html; sourceTree = "<group>"; };
+		5A0967511FB42D6400DBFFB8 /* NDHTMLtoPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDHTMLtoPDF.h; sourceTree = "<group>"; };
+		5A0967521FB42D6400DBFFB8 /* NDHTMLtoPDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDHTMLtoPDF.m; sourceTree = "<group>"; };
+		5A0967531FB42D6400DBFFB8 /* OWHTMLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWHTMLFileManager.h; sourceTree = "<group>"; };
+		5A0967541FB42D6400DBFFB8 /* OWHTMLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWHTMLFileManager.m; sourceTree = "<group>"; };
+		5A09675B1FB436AE00DBFFB8 /* fftoast_dismiss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fftoast_dismiss.png; sourceTree = "<group>"; };
+		5A09675C1FB436AE00DBFFB8 /* fftoast_dismiss@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_dismiss@2x.png"; sourceTree = "<group>"; };
+		5A09675D1FB436AE00DBFFB8 /* fftoast_dismiss@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_dismiss@3x.png"; sourceTree = "<group>"; };
+		5A09675E1FB436AE00DBFFB8 /* fftoast_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fftoast_error.png; sourceTree = "<group>"; };
+		5A09675F1FB436AE00DBFFB8 /* fftoast_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_error@2x.png"; sourceTree = "<group>"; };
+		5A0967601FB436AE00DBFFB8 /* fftoast_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_error@3x.png"; sourceTree = "<group>"; };
+		5A0967611FB436AE00DBFFB8 /* fftoast_error_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fftoast_error_highlight.png; sourceTree = "<group>"; };
+		5A0967621FB436AE00DBFFB8 /* fftoast_error_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_error_highlight@2x.png"; sourceTree = "<group>"; };
+		5A0967631FB436AE00DBFFB8 /* fftoast_error_highlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_error_highlight@3x.png"; sourceTree = "<group>"; };
+		5A0967641FB436AE00DBFFB8 /* fftoast_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fftoast_info.png; sourceTree = "<group>"; };
+		5A0967651FB436AE00DBFFB8 /* fftoast_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_info@2x.png"; sourceTree = "<group>"; };
+		5A0967661FB436AE00DBFFB8 /* fftoast_info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_info@3x.png"; sourceTree = "<group>"; };
+		5A0967671FB436AE00DBFFB8 /* fftoast_info_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fftoast_info_highlight.png; sourceTree = "<group>"; };
+		5A0967681FB436AE00DBFFB8 /* fftoast_info_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_info_highlight@2x.png"; sourceTree = "<group>"; };
+		5A0967691FB436AE00DBFFB8 /* fftoast_info_highlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_info_highlight@3x.png"; sourceTree = "<group>"; };
+		5A09676A1FB436AE00DBFFB8 /* fftoast_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fftoast_success.png; sourceTree = "<group>"; };
+		5A09676B1FB436AE00DBFFB8 /* fftoast_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_success@2x.png"; sourceTree = "<group>"; };
+		5A09676C1FB436AE00DBFFB8 /* fftoast_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_success@3x.png"; sourceTree = "<group>"; };
+		5A09676D1FB436AE00DBFFB8 /* fftoast_success_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fftoast_success_highlight.png; sourceTree = "<group>"; };
+		5A09676E1FB436AE00DBFFB8 /* fftoast_success_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_success_highlight@2x.png"; sourceTree = "<group>"; };
+		5A09676F1FB436AE00DBFFB8 /* fftoast_success_highlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_success_highlight@3x.png"; sourceTree = "<group>"; };
+		5A0967701FB436AE00DBFFB8 /* fftoast_warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fftoast_warning.png; sourceTree = "<group>"; };
+		5A0967711FB436AE00DBFFB8 /* fftoast_warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_warning@2x.png"; sourceTree = "<group>"; };
+		5A0967721FB436AE00DBFFB8 /* fftoast_warning@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_warning@3x.png"; sourceTree = "<group>"; };
+		5A0967731FB436AE00DBFFB8 /* fftoast_warning_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fftoast_warning_highlight.png; sourceTree = "<group>"; };
+		5A0967741FB436AE00DBFFB8 /* fftoast_warning_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_warning_highlight@2x.png"; sourceTree = "<group>"; };
+		5A0967751FB436AE00DBFFB8 /* fftoast_warning_highlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fftoast_warning_highlight@3x.png"; sourceTree = "<group>"; };
+		5A0967771FB436AE00DBFFB8 /* NSString+FFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FFToast.h"; sourceTree = "<group>"; };
+		5A0967781FB436AE00DBFFB8 /* NSString+FFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FFToast.m"; sourceTree = "<group>"; };
+		5A0967791FB436AE00DBFFB8 /* UIImage+FFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FFToast.h"; sourceTree = "<group>"; };
+		5A09677A1FB436AE00DBFFB8 /* UIImage+FFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FFToast.m"; sourceTree = "<group>"; };
+		5A09677C1FB436AE00DBFFB8 /* FFBaseToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFBaseToastView.h; sourceTree = "<group>"; };
+		5A09677D1FB436AE00DBFFB8 /* FFBaseToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFBaseToastView.m; sourceTree = "<group>"; };
+		5A09677E1FB436AE00DBFFB8 /* FFCentreToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCentreToastView.h; sourceTree = "<group>"; };
+		5A09677F1FB436AE00DBFFB8 /* FFCentreToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCentreToastView.m; sourceTree = "<group>"; };
+		5A0967801FB436AE00DBFFB8 /* FFConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFConfig.h; sourceTree = "<group>"; };
+		5A0967811FB436AE00DBFFB8 /* FFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFToast.h; sourceTree = "<group>"; };
+		5A0967821FB436AE00DBFFB8 /* FFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFToast.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A0967111FB42AC200DBFFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0967291FB42AC200DBFFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0967341FB42AC200DBFFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A09670B1FB42AC200DBFFB8 = {
+			isa = PBXGroup;
+			children = (
+				5A0967161FB42AC200DBFFB8 /* OWHTMLtoPDF */,
+				5A09672F1FB42AC200DBFFB8 /* OWHTMLtoPDFTests */,
+				5A09673A1FB42AC200DBFFB8 /* OWHTMLtoPDFUITests */,
+				5A0967151FB42AC200DBFFB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A0967151FB42AC200DBFFB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A0967141FB42AC200DBFFB8 /* OWHTMLtoPDF.app */,
+				5A09672C1FB42AC200DBFFB8 /* OWHTMLtoPDFTests.xctest */,
+				5A0967371FB42AC200DBFFB8 /* OWHTMLtoPDFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A0967161FB42AC200DBFFB8 /* OWHTMLtoPDF */ = {
+			isa = PBXGroup;
+			children = (
+				5A0967581FB436AE00DBFFB8 /* Vendor */,
+				5A09674E1FB42D6400DBFFB8 /* files */,
+				5A0967501FB42D6400DBFFB8 /* OWHTMLtoPDF */,
+				5A0967171FB42AC200DBFFB8 /* AppDelegate.h */,
+				5A0967181FB42AC200DBFFB8 /* AppDelegate.m */,
+				5A09671A1FB42AC200DBFFB8 /* ViewController.h */,
+				5A09671B1FB42AC200DBFFB8 /* ViewController.m */,
+				5A09671D1FB42AC200DBFFB8 /* Main.storyboard */,
+				5A0967491FB42B0700DBFFB8 /* OWPDFViewController.h */,
+				5A09674A1FB42B0700DBFFB8 /* OWPDFViewController.m */,
+				5A09674B1FB42B0700DBFFB8 /* OWPDFViewController.xib */,
+				5A0967201FB42AC200DBFFB8 /* Assets.xcassets */,
+				5A0967221FB42AC200DBFFB8 /* LaunchScreen.storyboard */,
+				5A0967251FB42AC200DBFFB8 /* Info.plist */,
+				5A0967261FB42AC200DBFFB8 /* main.m */,
+			);
+			path = OWHTMLtoPDF;
+			sourceTree = "<group>";
+		};
+		5A09672F1FB42AC200DBFFB8 /* OWHTMLtoPDFTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A0967301FB42AC200DBFFB8 /* OWHTMLtoPDFTests.m */,
+				5A0967321FB42AC200DBFFB8 /* Info.plist */,
+			);
+			path = OWHTMLtoPDFTests;
+			sourceTree = "<group>";
+		};
+		5A09673A1FB42AC200DBFFB8 /* OWHTMLtoPDFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A09673B1FB42AC200DBFFB8 /* OWHTMLtoPDFUITests.m */,
+				5A09673D1FB42AC200DBFFB8 /* Info.plist */,
+			);
+			path = OWHTMLtoPDFUITests;
+			sourceTree = "<group>";
+		};
+		5A09674E1FB42D6400DBFFB8 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				5A09674F1FB42D6400DBFFB8 /* propertyHTML.html */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
+		5A0967501FB42D6400DBFFB8 /* OWHTMLtoPDF */ = {
+			isa = PBXGroup;
+			children = (
+				5A0967511FB42D6400DBFFB8 /* NDHTMLtoPDF.h */,
+				5A0967521FB42D6400DBFFB8 /* NDHTMLtoPDF.m */,
+				5A0967531FB42D6400DBFFB8 /* OWHTMLFileManager.h */,
+				5A0967541FB42D6400DBFFB8 /* OWHTMLFileManager.m */,
+			);
+			path = OWHTMLtoPDF;
+			sourceTree = "<group>";
+		};
+		5A0967581FB436AE00DBFFB8 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				5A0967591FB436AE00DBFFB8 /* FFToast */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		5A0967591FB436AE00DBFFB8 /* FFToast */ = {
+			isa = PBXGroup;
+			children = (
+				5A09675A1FB436AE00DBFFB8 /* Assets */,
+				5A0967761FB436AE00DBFFB8 /* Category */,
+				5A09677B1FB436AE00DBFFB8 /* Classes */,
+			);
+			path = FFToast;
+			sourceTree = "<group>";
+		};
+		5A09675A1FB436AE00DBFFB8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5A09675B1FB436AE00DBFFB8 /* fftoast_dismiss.png */,
+				5A09675C1FB436AE00DBFFB8 /* fftoast_dismiss@2x.png */,
+				5A09675D1FB436AE00DBFFB8 /* fftoast_dismiss@3x.png */,
+				5A09675E1FB436AE00DBFFB8 /* fftoast_error.png */,
+				5A09675F1FB436AE00DBFFB8 /* fftoast_error@2x.png */,
+				5A0967601FB436AE00DBFFB8 /* fftoast_error@3x.png */,
+				5A0967611FB436AE00DBFFB8 /* fftoast_error_highlight.png */,
+				5A0967621FB436AE00DBFFB8 /* fftoast_error_highlight@2x.png */,
+				5A0967631FB436AE00DBFFB8 /* fftoast_error_highlight@3x.png */,
+				5A0967641FB436AE00DBFFB8 /* fftoast_info.png */,
+				5A0967651FB436AE00DBFFB8 /* fftoast_info@2x.png */,
+				5A0967661FB436AE00DBFFB8 /* fftoast_info@3x.png */,
+				5A0967671FB436AE00DBFFB8 /* fftoast_info_highlight.png */,
+				5A0967681FB436AE00DBFFB8 /* fftoast_info_highlight@2x.png */,
+				5A0967691FB436AE00DBFFB8 /* fftoast_info_highlight@3x.png */,
+				5A09676A1FB436AE00DBFFB8 /* fftoast_success.png */,
+				5A09676B1FB436AE00DBFFB8 /* fftoast_success@2x.png */,
+				5A09676C1FB436AE00DBFFB8 /* fftoast_success@3x.png */,
+				5A09676D1FB436AE00DBFFB8 /* fftoast_success_highlight.png */,
+				5A09676E1FB436AE00DBFFB8 /* fftoast_success_highlight@2x.png */,
+				5A09676F1FB436AE00DBFFB8 /* fftoast_success_highlight@3x.png */,
+				5A0967701FB436AE00DBFFB8 /* fftoast_warning.png */,
+				5A0967711FB436AE00DBFFB8 /* fftoast_warning@2x.png */,
+				5A0967721FB436AE00DBFFB8 /* fftoast_warning@3x.png */,
+				5A0967731FB436AE00DBFFB8 /* fftoast_warning_highlight.png */,
+				5A0967741FB436AE00DBFFB8 /* fftoast_warning_highlight@2x.png */,
+				5A0967751FB436AE00DBFFB8 /* fftoast_warning_highlight@3x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5A0967761FB436AE00DBFFB8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5A0967771FB436AE00DBFFB8 /* NSString+FFToast.h */,
+				5A0967781FB436AE00DBFFB8 /* NSString+FFToast.m */,
+				5A0967791FB436AE00DBFFB8 /* UIImage+FFToast.h */,
+				5A09677A1FB436AE00DBFFB8 /* UIImage+FFToast.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5A09677B1FB436AE00DBFFB8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5A09677C1FB436AE00DBFFB8 /* FFBaseToastView.h */,
+				5A09677D1FB436AE00DBFFB8 /* FFBaseToastView.m */,
+				5A09677E1FB436AE00DBFFB8 /* FFCentreToastView.h */,
+				5A09677F1FB436AE00DBFFB8 /* FFCentreToastView.m */,
+				5A0967801FB436AE00DBFFB8 /* FFConfig.h */,
+				5A0967811FB436AE00DBFFB8 /* FFToast.h */,
+				5A0967821FB436AE00DBFFB8 /* FFToast.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A0967131FB42AC200DBFFB8 /* OWHTMLtoPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0967401FB42AC200DBFFB8 /* Build configuration list for PBXNativeTarget "OWHTMLtoPDF" */;
+			buildPhases = (
+				5A0967101FB42AC200DBFFB8 /* Sources */,
+				5A0967111FB42AC200DBFFB8 /* Frameworks */,
+				5A0967121FB42AC200DBFFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OWHTMLtoPDF;
+			productName = OWHTMLtoPDF;
+			productReference = 5A0967141FB42AC200DBFFB8 /* OWHTMLtoPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A09672B1FB42AC200DBFFB8 /* OWHTMLtoPDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0967431FB42AC200DBFFB8 /* Build configuration list for PBXNativeTarget "OWHTMLtoPDFTests" */;
+			buildPhases = (
+				5A0967281FB42AC200DBFFB8 /* Sources */,
+				5A0967291FB42AC200DBFFB8 /* Frameworks */,
+				5A09672A1FB42AC200DBFFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A09672E1FB42AC200DBFFB8 /* PBXTargetDependency */,
+			);
+			name = OWHTMLtoPDFTests;
+			productName = OWHTMLtoPDFTests;
+			productReference = 5A09672C1FB42AC200DBFFB8 /* OWHTMLtoPDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A0967361FB42AC200DBFFB8 /* OWHTMLtoPDFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0967461FB42AC200DBFFB8 /* Build configuration list for PBXNativeTarget "OWHTMLtoPDFUITests" */;
+			buildPhases = (
+				5A0967331FB42AC200DBFFB8 /* Sources */,
+				5A0967341FB42AC200DBFFB8 /* Frameworks */,
+				5A0967351FB42AC200DBFFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A0967391FB42AC200DBFFB8 /* PBXTargetDependency */,
+			);
+			name = OWHTMLtoPDFUITests;
+			productName = OWHTMLtoPDFUITests;
+			productReference = 5A0967371FB42AC200DBFFB8 /* OWHTMLtoPDFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A09670C1FB42AC200DBFFB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = conpak;
+				TargetAttributes = {
+					5A0967131FB42AC200DBFFB8 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					5A09672B1FB42AC200DBFFB8 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A0967131FB42AC200DBFFB8;
+					};
+					5A0967361FB42AC200DBFFB8 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A0967131FB42AC200DBFFB8;
+					};
+				};
+			};
+			buildConfigurationList = 5A09670F1FB42AC200DBFFB8 /* Build configuration list for PBXProject "OWHTMLtoPDF" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A09670B1FB42AC200DBFFB8;
+			productRefGroup = 5A0967151FB42AC200DBFFB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A0967131FB42AC200DBFFB8 /* OWHTMLtoPDF */,
+				5A09672B1FB42AC200DBFFB8 /* OWHTMLtoPDFTests */,
+				5A0967361FB42AC200DBFFB8 /* OWHTMLtoPDFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A0967121FB42AC200DBFFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0967241FB42AC200DBFFB8 /* LaunchScreen.storyboard in Resources */,
+				5A0967551FB42D6400DBFFB8 /* propertyHTML.html in Resources */,
+				5A09679D1FB436AE00DBFFB8 /* fftoast_warning_highlight@3x.png in Resources */,
+				5A09678D1FB436AE00DBFFB8 /* fftoast_info@2x.png in Resources */,
+				5A0967841FB436AE00DBFFB8 /* fftoast_dismiss@2x.png in Resources */,
+				5A0967211FB42AC200DBFFB8 /* Assets.xcassets in Resources */,
+				5A09671F1FB42AC200DBFFB8 /* Main.storyboard in Resources */,
+				5A0967981FB436AE00DBFFB8 /* fftoast_warning.png in Resources */,
+				5A09678F1FB436AE00DBFFB8 /* fftoast_info_highlight.png in Resources */,
+				5A09678E1FB436AE00DBFFB8 /* fftoast_info@3x.png in Resources */,
+				5A0967971FB436AE00DBFFB8 /* fftoast_success_highlight@3x.png in Resources */,
+				5A0967961FB436AE00DBFFB8 /* fftoast_success_highlight@2x.png in Resources */,
+				5A09679B1FB436AE00DBFFB8 /* fftoast_warning_highlight.png in Resources */,
+				5A0967911FB436AE00DBFFB8 /* fftoast_info_highlight@3x.png in Resources */,
+				5A0967871FB436AE00DBFFB8 /* fftoast_error@2x.png in Resources */,
+				5A0967931FB436AE00DBFFB8 /* fftoast_success@2x.png in Resources */,
+				5A0967881FB436AE00DBFFB8 /* fftoast_error@3x.png in Resources */,
+				5A09679C1FB436AE00DBFFB8 /* fftoast_warning_highlight@2x.png in Resources */,
+				5A0967991FB436AE00DBFFB8 /* fftoast_warning@2x.png in Resources */,
+				5A0967921FB436AE00DBFFB8 /* fftoast_success.png in Resources */,
+				5A0967831FB436AE00DBFFB8 /* fftoast_dismiss.png in Resources */,
+				5A0967951FB436AE00DBFFB8 /* fftoast_success_highlight.png in Resources */,
+				5A0967941FB436AE00DBFFB8 /* fftoast_success@3x.png in Resources */,
+				5A09678C1FB436AE00DBFFB8 /* fftoast_info.png in Resources */,
+				5A0967901FB436AE00DBFFB8 /* fftoast_info_highlight@2x.png in Resources */,
+				5A0967851FB436AE00DBFFB8 /* fftoast_dismiss@3x.png in Resources */,
+				5A09679A1FB436AE00DBFFB8 /* fftoast_warning@3x.png in Resources */,
+				5A0967891FB436AE00DBFFB8 /* fftoast_error_highlight.png in Resources */,
+				5A0967861FB436AE00DBFFB8 /* fftoast_error.png in Resources */,
+				5A09678B1FB436AE00DBFFB8 /* fftoast_error_highlight@3x.png in Resources */,
+				5A09678A1FB436AE00DBFFB8 /* fftoast_error_highlight@2x.png in Resources */,
+				5A09674D1FB42B0700DBFFB8 /* OWPDFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A09672A1FB42AC200DBFFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0967351FB42AC200DBFFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A0967101FB42AC200DBFFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0967571FB42D6400DBFFB8 /* OWHTMLFileManager.m in Sources */,
+				5A09671C1FB42AC200DBFFB8 /* ViewController.m in Sources */,
+				5A0967A01FB436AE00DBFFB8 /* FFBaseToastView.m in Sources */,
+				5A0967A11FB436AE00DBFFB8 /* FFCentreToastView.m in Sources */,
+				5A0967A21FB436AE00DBFFB8 /* FFToast.m in Sources */,
+				5A0967271FB42AC200DBFFB8 /* main.m in Sources */,
+				5A0967561FB42D6400DBFFB8 /* NDHTMLtoPDF.m in Sources */,
+				5A09679E1FB436AE00DBFFB8 /* NSString+FFToast.m in Sources */,
+				5A0967191FB42AC200DBFFB8 /* AppDelegate.m in Sources */,
+				5A09674C1FB42B0700DBFFB8 /* OWPDFViewController.m in Sources */,
+				5A09679F1FB436AE00DBFFB8 /* UIImage+FFToast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0967281FB42AC200DBFFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0967311FB42AC200DBFFB8 /* OWHTMLtoPDFTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0967331FB42AC200DBFFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A09673C1FB42AC200DBFFB8 /* OWHTMLtoPDFUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A09672E1FB42AC200DBFFB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A0967131FB42AC200DBFFB8 /* OWHTMLtoPDF */;
+			targetProxy = 5A09672D1FB42AC200DBFFB8 /* PBXContainerItemProxy */;
+		};
+		5A0967391FB42AC200DBFFB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A0967131FB42AC200DBFFB8 /* OWHTMLtoPDF */;
+			targetProxy = 5A0967381FB42AC200DBFFB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A09671D1FB42AC200DBFFB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A09671E1FB42AC200DBFFB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A0967221FB42AC200DBFFB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A0967231FB42AC200DBFFB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A09673E1FB42AC200DBFFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A09673F1FB42AC200DBFFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A0967411FB42AC200DBFFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5997FHFDCF;
+				INFOPLIST_FILE = OWHTMLtoPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conpak.OWHTMLtoPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A0967421FB42AC200DBFFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5997FHFDCF;
+				INFOPLIST_FILE = OWHTMLtoPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conpak.OWHTMLtoPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A0967441FB42AC200DBFFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5997FHFDCF;
+				INFOPLIST_FILE = OWHTMLtoPDFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conpak.OWHTMLtoPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OWHTMLtoPDF.app/OWHTMLtoPDF";
+			};
+			name = Debug;
+		};
+		5A0967451FB42AC200DBFFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5997FHFDCF;
+				INFOPLIST_FILE = OWHTMLtoPDFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conpak.OWHTMLtoPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OWHTMLtoPDF.app/OWHTMLtoPDF";
+			};
+			name = Release;
+		};
+		5A0967471FB42AC200DBFFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5997FHFDCF;
+				INFOPLIST_FILE = OWHTMLtoPDFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conpak.OWHTMLtoPDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OWHTMLtoPDF;
+			};
+			name = Debug;
+		};
+		5A0967481FB42AC200DBFFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5997FHFDCF;
+				INFOPLIST_FILE = OWHTMLtoPDFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conpak.OWHTMLtoPDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OWHTMLtoPDF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A09670F1FB42AC200DBFFB8 /* Build configuration list for PBXProject "OWHTMLtoPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A09673E1FB42AC200DBFFB8 /* Debug */,
+				5A09673F1FB42AC200DBFFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A0967401FB42AC200DBFFB8 /* Build configuration list for PBXNativeTarget "OWHTMLtoPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0967411FB42AC200DBFFB8 /* Debug */,
+				5A0967421FB42AC200DBFFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A0967431FB42AC200DBFFB8 /* Build configuration list for PBXNativeTarget "OWHTMLtoPDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0967441FB42AC200DBFFB8 /* Debug */,
+				5A0967451FB42AC200DBFFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A0967461FB42AC200DBFFB8 /* Build configuration list for PBXNativeTarget "OWHTMLtoPDFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0967471FB42AC200DBFFB8 /* Debug */,
+				5A0967481FB42AC200DBFFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A09670C1FB42AC200DBFFB8 /* Project object */;
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJS-G6-vSA">
+                                <rect key="frame" x="60" y="318.5" width="254" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="254" id="OBJ-Ol-CWf"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="rjS-0n-rzX"/>
+                                    <constraint firstAttribute="height" constant="30" id="wEm-r3-xLj"/>
+                                </constraints>
+                                <state key="normal" title="Block 方式调用"/>
+                                <connections>
+                                    <action selector="blockCreatePDF:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NAj-gJ-QgX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04M-x5-kuV">
+                                <rect key="frame" x="60" y="378.5" width="254" height="30"/>
+                                <state key="normal" title="替换html文件的字段"/>
+                                <connections>
+                                    <action selector="createNewHTMLByHTMLModel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TBr-5s-EN3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D59-dY-6aJ">
+                                <rect key="frame" x="60" y="258.5" width="254" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7AV-7J-wy3"/>
+                                </constraints>
+                                <state key="normal" title="Delegate 方式调用"/>
+                                <connections>
+                                    <action selector="delegateCreatePDF:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IXM-g8-Lct"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kJS-G6-vSA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0lz-rs-B2m"/>
+                            <constraint firstItem="04M-x5-kuV" firstAttribute="width" secondItem="kJS-G6-vSA" secondAttribute="width" id="34P-MR-GnL"/>
+                            <constraint firstItem="04M-x5-kuV" firstAttribute="height" secondItem="kJS-G6-vSA" secondAttribute="height" id="D7k-Tm-hwP"/>
+                            <constraint firstItem="04M-x5-kuV" firstAttribute="top" secondItem="kJS-G6-vSA" secondAttribute="bottom" constant="30" id="NiM-Ml-Ytn"/>
+                            <constraint firstItem="kJS-G6-vSA" firstAttribute="top" secondItem="D59-dY-6aJ" secondAttribute="bottom" constant="30" id="SAK-m2-hjc"/>
+                            <constraint firstItem="kJS-G6-vSA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VpD-e6-lU3"/>
+                            <constraint firstItem="04M-x5-kuV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="dRT-TK-Ei8"/>
+                            <constraint firstItem="kJS-G6-vSA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="rq9-4v-Xrf"/>
+                            <constraint firstItem="kJS-G6-vSA" firstAttribute="width" secondItem="D59-dY-6aJ" secondAttribute="width" id="sGa-v0-NKK"/>
+                            <constraint firstItem="D59-dY-6aJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="txr-E5-Ma9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
