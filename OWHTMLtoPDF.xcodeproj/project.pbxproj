@@ -52,6 +52,12 @@
 		5A0967A01FB436AE00DBFFB8 /* FFBaseToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A09677D1FB436AE00DBFFB8 /* FFBaseToastView.m */; };
 		5A0967A11FB436AE00DBFFB8 /* FFCentreToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A09677F1FB436AE00DBFFB8 /* FFCentreToastView.m */; };
 		5A0967A21FB436AE00DBFFB8 /* FFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0967821FB436AE00DBFFB8 /* FFToast.m */; };
+		5AE8E3121FDE1259002F14B7 /* personal-assessment-computation.html in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8E30F1FDE1259002F14B7 /* personal-assessment-computation.html */; };
+		5AE8E3131FDE1259002F14B7 /* salaries-tax-computation.html in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8E3101FDE1259002F14B7 /* salaries-tax-computation.html */; };
+		5AE8E3141FDE1259002F14B7 /* property-tax-computation.html in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8E3111FDE1259002F14B7 /* property-tax-computation.html */; };
+		5AE8E3181FDE1694002F14B7 /* personalAssessmentModel.html in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8E3151FDE1694002F14B7 /* personalAssessmentModel.html */; };
+		5AE8E3191FDE1694002F14B7 /* salariesTaxModel.html in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8E3161FDE1694002F14B7 /* salariesTaxModel.html */; };
+		5AE8E31A1FDE1694002F14B7 /* propertyTaxModel.html in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8E3171FDE1694002F14B7 /* propertyTaxModel.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +140,12 @@
 		5A0967801FB436AE00DBFFB8 /* FFConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFConfig.h; sourceTree = "<group>"; };
 		5A0967811FB436AE00DBFFB8 /* FFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFToast.h; sourceTree = "<group>"; };
 		5A0967821FB436AE00DBFFB8 /* FFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFToast.m; sourceTree = "<group>"; };
+		5AE8E30F1FDE1259002F14B7 /* personal-assessment-computation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "personal-assessment-computation.html"; sourceTree = "<group>"; };
+		5AE8E3101FDE1259002F14B7 /* salaries-tax-computation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "salaries-tax-computation.html"; sourceTree = "<group>"; };
+		5AE8E3111FDE1259002F14B7 /* property-tax-computation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "property-tax-computation.html"; sourceTree = "<group>"; };
+		5AE8E3151FDE1694002F14B7 /* personalAssessmentModel.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = personalAssessmentModel.html; sourceTree = "<group>"; };
+		5AE8E3161FDE1694002F14B7 /* salariesTaxModel.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = salariesTaxModel.html; sourceTree = "<group>"; };
+		5AE8E3171FDE1694002F14B7 /* propertyTaxModel.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = propertyTaxModel.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +236,12 @@
 		5A09674E1FB42D6400DBFFB8 /* files */ = {
 			isa = PBXGroup;
 			children = (
+				5AE8E3151FDE1694002F14B7 /* personalAssessmentModel.html */,
+				5AE8E3171FDE1694002F14B7 /* propertyTaxModel.html */,
+				5AE8E3161FDE1694002F14B7 /* salariesTaxModel.html */,
+				5AE8E30F1FDE1259002F14B7 /* personal-assessment-computation.html */,
+				5AE8E3111FDE1259002F14B7 /* property-tax-computation.html */,
+				5AE8E3101FDE1259002F14B7 /* salaries-tax-computation.html */,
 				5A09674F1FB42D6400DBFFB8 /* propertyHTML.html */,
 			);
 			path = files;
@@ -424,10 +442,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A0967241FB42AC200DBFFB8 /* LaunchScreen.storyboard in Resources */,
+				5AE8E31A1FDE1694002F14B7 /* propertyTaxModel.html in Resources */,
 				5A0967551FB42D6400DBFFB8 /* propertyHTML.html in Resources */,
 				5A09679D1FB436AE00DBFFB8 /* fftoast_warning_highlight@3x.png in Resources */,
 				5A09678D1FB436AE00DBFFB8 /* fftoast_info@2x.png in Resources */,
 				5A0967841FB436AE00DBFFB8 /* fftoast_dismiss@2x.png in Resources */,
+				5AE8E3121FDE1259002F14B7 /* personal-assessment-computation.html in Resources */,
+				5AE8E3131FDE1259002F14B7 /* salaries-tax-computation.html in Resources */,
 				5A0967211FB42AC200DBFFB8 /* Assets.xcassets in Resources */,
 				5A09671F1FB42AC200DBFFB8 /* Main.storyboard in Resources */,
 				5A0967981FB436AE00DBFFB8 /* fftoast_warning.png in Resources */,
@@ -446,11 +467,14 @@
 				5A0967831FB436AE00DBFFB8 /* fftoast_dismiss.png in Resources */,
 				5A0967951FB436AE00DBFFB8 /* fftoast_success_highlight.png in Resources */,
 				5A0967941FB436AE00DBFFB8 /* fftoast_success@3x.png in Resources */,
+				5AE8E3141FDE1259002F14B7 /* property-tax-computation.html in Resources */,
+				5AE8E3181FDE1694002F14B7 /* personalAssessmentModel.html in Resources */,
 				5A09678C1FB436AE00DBFFB8 /* fftoast_info.png in Resources */,
 				5A0967901FB436AE00DBFFB8 /* fftoast_info_highlight@2x.png in Resources */,
 				5A0967851FB436AE00DBFFB8 /* fftoast_dismiss@3x.png in Resources */,
 				5A09679A1FB436AE00DBFFB8 /* fftoast_warning@3x.png in Resources */,
 				5A0967891FB436AE00DBFFB8 /* fftoast_error_highlight.png in Resources */,
+				5AE8E3191FDE1694002F14B7 /* salariesTaxModel.html in Resources */,
 				5A0967861FB436AE00DBFFB8 /* fftoast_error.png in Resources */,
 				5A09678B1FB436AE00DBFFB8 /* fftoast_error_highlight@3x.png in Resources */,
 				5A09678A1FB436AE00DBFFB8 /* fftoast_error_highlight@2x.png in Resources */,

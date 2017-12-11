@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style>
+	html{font-size:62.5%}
+	body{font-family: "Arial"; font-size: 1.6rem;}
+	.tax-table{ margin: 0 auto; border:1px solid #333; padding: 20px; width: 1024px;}
+	.tax-table table{width: 1024px; line-height: 1.8rem;}
+	.tax-table h1, .tax-table p{text-align: center;padding: 0; margin: 0;}
+	.tax-table h1{font-size: 3rem; }
+	.cal-line-thin{border-bottom: 2px  dashed #333; height: 5px; margin-bottom: 5px;}
+	.cal-line-double{border-bottom: 2px dashed #333;border-top: 2px dashed #333; height: 3px; margin-bottom: 20px;}
+	.tax-table td{vertical-align: top;}
+	.tax-table tr>td:first-child{padding-left: 15px;}
+	.tax-table th{text-align: left;}
+	ul{margin: 0; padding: 0; margin-left: 40px; color: #666; list-style: decimal;}
+	.tax-table p.tax-note{text-align: left; margin-top: 60px; color: #666;}
+	.tax-table tr>td.tax-padding-left-30{padding-left: 30px;}
+	.tax-table tr>td.tax-padding-left-50{padding-left: 64px;}
+	.tax-table tr>td.tax-no-padding{padding-left: 0;}
+	.tax-math{position: relative; width: 210px; margin-left: 10px;}
+	.tax-math:before{position: absolute; content: '你所佔的扣除后入息總額';text-align: center; left: 0; bottom:20px; width: 210px; height: 30px; border-bottom: 1px solid #666; padding-bottom: 5px; }
+	.tax-math:after{position: absolute; content: '扣除后的入息總額';text-align: center; left: 0; bottom: -10px; width: 210px; height: 30px;}
+	</style>
+</head>
+<body>
+<div id="Property-tax" class="tax-table">
+  <h1>SALARIES TAX COMPUTATION</h1>
+  <table cellspacing="0" border="0" cellpadding="0" >
+	  <tbody>
+	   <tr>
+	  	<td width="480"></td>
+	  	<td colspan="4" align="center">2016/17 (Final)</td>
+	  	<td width="200"></td>
+	  	<td colspan="3" align="center">2017/18 (Provisional)</td>
+	  	</tr>
+	  <tr>
+	  	<td width="480"></td>
+	  	<td width="40"></td>
+	  	<td width="180" align="right">$</td>
+	    <td width="40"></td>
+	  	<td width="180"  align="right">$</td>
+	  	<td width="200"></td>
+	  	<td width="180"  align="right">$</td>
+	  	<td width="40"></td>
+	  	<td width="180"  align="right">$</td>
+	  </tr>
+	   <tr>
+	  	<td>Income</td>
+	  	<td></td>
+	  	<td  align="right">751,995</td>
+	    <td></td>
+	  	<td></td>
+	  	<td></td>
+	  	<td  align="right">751,995</td>
+	  	<td></td>
+	  	<td></td>
+	  </tr>
+	   <tr>
+	  	<td>Value of residence provided</td>
+	  	<td></td>
+	  	<td  align="right">75,199 <div class="cal-line-thin"></div></td>
+	    <td></td>
+	  	<td  align="right">827,194</td>
+	  	<td></td>
+	  	<td  align="right">75,199<div class="cal-line-thin"></div></td>
+	  	<td></td>
+	  	<td  align="right">827.194</td>
+	  </tr>
+	  <tr>
+	  	<th colspan="9">Less:Deductions</th>
+	  </tr>
+	  <tr>
+	  	<td>Charitable Donations</td>
+	  	<td></td>
+	  	<td  align="right">2,000</td>
+	    <td></td>
+	  	<td></td>
+	  	<td></td>
+	  	<td  align="right">2,000</td>
+	  	<td></td>
+	  	<td></td>
+	  </tr>
+	  <tr>
+	  	<td>Retirement scheme contributions</td>
+	  	<td></td>
+	  	<td  align="right">18,000 <div class="cal-line-thin"></div></td>
+	    <td></td>
+	  	<td  align="right">20,000<div class="cal-line-thin"></div></td>
+	  	<td></td>
+	  	<td  align="right">18,000<div class="cal-line-thin"></div></td>
+	  	<td></td>
+	  	<td  align="right">20,000<div class="cal-line-thin"></div></td>
+	  </tr>
+	  <tr>
+	  	<td>Net incom</td>
+	  	<td></td>
+	  	<td></td>
+	    <td></td>
+	  	<td align="right">807,194</td>
+	  	<td></td>
+	  	<td></td>
+	  	<td></td>
+	  	<td align="right">807,194</td>
+	  </tr>
+	   <tr>
+	  	<th colspan="9">Less:Allowances</th>
+	  </tr>
+	  <tr>
+	  	<td>Basic/Married person's</td>
+	  	<td></td>
+	  	<td  align="right">264,000</td>
+	    <td></td>
+	  	<td></td>
+	  	<td></td>
+	  	<td  align="right">264,000</td>
+	  	<td></td>
+	  	<td></td>
+	  </tr>
+	  <tr>
+	  	<td>Child</td>
+	  	<td></td>
+	  	<td  align="right">100,000</td>
+	    <td></td>
+	  	<td></td>
+	  	<td></td>
+	  	<td  align="right">100,000</td>
+	  	<td></td>
+	  	<td></td>
+	  </tr>
+	  <tr><td colspan="9">Dependent parent/grandparent</td></tr>
+	   <tr>
+	  	<td class="tax-padding-left-30"> - Aged 60 or over</td>
+	  	<td></td>
+	  	<td  align="right">46,000<div class="cal-line-thin"></div></td>
+	    <td></td>
+	  	<td align="right">410,000<div class="cal-line-thin"></div></td>
+	  	<td></td>
+	  	<td  align="right">46,000<div class="cal-line-thin"></div></td>
+	  	<td></td>
+	  	<td align="right">410,000<div class="cal-line-thin"></div></td>
+	  </tr>
+	  <tr>
+	  	<td class="">Net chargeable income</td>
+	  	<td></td>
+	  	<td  align="right"></td>
+	    <td></td>
+	  	<td align="right">397,194<div class="cal-line-double"></div></td>
+	  	<td></td>
+	  	<td  align="right"></td>
+	  	<td></td>
+	  	<td align="right">397,194<div class="cal-line-double"></div></td>
+	  </tr>
+	  <tr><th colspan="9">Tax at origressuve rates</th></tr>
+	   <tr>
+	  	<td colspan="3" class="tax-padding-left-50">First $40,000 @ 2%</td>
+	  	<td></td>
+	  	<td align="right">800.00</td>
+	  	<td colspan="2" class="tax-padding-left-50">First $45,000 @ 2%</td>
+	  	<td></td>
+	  	<td align="right">900.00</td>
+	  </tr>
+	  <tr>
+	  	<td colspan="3" class="tax-padding-left-50">Next $40,000 @ 7%</td>
+	  	<td></td>
+	  	<td align="right">2,800.00</td>
+	  	<td colspan="2" class="tax-padding-left-50">Next $45,000 @ 7%</td>
+	  	<td></td>
+	  	<td align="right">3,150.00</td>
+	  </tr>
+	  <tr>
+	  	<td colspan="3" class="tax-padding-left-50">First $40,000 @ 12%</td>
+	  	<td></td>
+	  	<td align="right">4,800.00</td>
+	  	<td colspan="2" class="tax-padding-left-50">Next $45,000 @ 12%</td>
+	  	<td></td>
+	  	<td align="right">5,400.00</td>
+	  </tr>
+	  <tr>
+	  	<td colspan="3" class="tax-padding-left-50">Remainder  $277,194 @ 17%</td>
+	  	<td></td>
+	  	<td align="right">47,122.98<div class="cal-line-thin"></div></td>
+	  	<td colspan="3" class="tax-padding-left-50">Remainder $262,194 @ 17%</td>
+	  	<td align="right">44,572.98<div class="cal-line-thin"></div></td>
+	  </tr>
+	   <tr>
+	  	<td colspan="3" class="tax-padding-left-50"></td>
+	  	<td></td>
+	  	<td align="right">55,522</td>
+	  	<td colspan="2" class="tax-padding-left-50"></td>
+	  	<td></td>
+	  	<td align="right">54,022</td>
+	  </tr>
+	   <tr>
+	  	<td colspan="3" >Less:Tax reduction, capped at</td>
+	  	<td></td>
+	  	<td align="right">20,000<div class="cal-line-thin"></div></td>
+	  	<td colspan="2"></td>
+	  	<td></td>
+	  	<td align="right"></td>
+	  </tr>
+	  <tr>
+	  	<td colspan="3" >Tax payable</td>
+	  	<td></td>
+	  	<td align="right">35,522<div class="cal-line-double"></div></td>
+	  	<td colspan="2"></td>
+	  	<td></td>
+	  	<td align="right">54,022<div class="cal-line-double"></div></td>
+	  </tr>
+	  <tr><th colspan="9">Standard rate not applied as the tax amount will be higher.</th></tr>
+	    <tr>
+	  	<td colspan="3" class="tax-padding-left-50">$807,194 @ 15%</td>
+	  	<td></td>
+	  	<td align="right">121,097</td>
+	  	<td colspan="2" class="tax-padding-left-50">$807,194 @ 15%</td>
+	  	<td></td>
+	  	<td align="right">121,079</td>
+	  </tr>
+	     <tr>
+	  	<td colspan="3" >Less:Tax reduction, capped at</td>
+	  	<td></td>
+	  	<td align="right">20,000<div class="cal-line-thin"></div></td>
+	  	<td colspan="2"></td>
+	  	<td></td>
+	  	<td align="right"></td>
+	  </tr>
+	     <tr>
+	  	<td colspan="3" >Tax thereon</td>
+	  	<td></td>
+	  	<td align="right">101,079<div class="cal-line-double"></div></td>
+	  	<td colspan="2"></td>
+	  	<td></td>
+	  	<td align="right">121,079<div class="cal-line-double"></div></td>
+	  </tr>
+	  	<tr>
+	  		<td colspan="9">
+	  	<p class="tax-note">Assessor's Notes</p>
+	  		<ul>	
+				<li>Any deduction(s) allowed is/are subject to review.</li>
+				<li>The tax measures announced in 2017/18 Budget have been taken into account in this assessment.</li>
+	  			<li>Income assessed includes the value of the place of residence provided to you, calculated under the Inland Revenue Ordinance. For details please see the guide accomanying the tax return.</li>
+	  		</ul></td>
+	  		
+	  	</tr>
+	  </tbody>
+  </table>
+	
+	
+	<dl>
+	<dt></dt>
+	<dd></dd>
+	</dl>
+	<dl>
+		
+	</dl>
+</div>
+</body>
+</html>

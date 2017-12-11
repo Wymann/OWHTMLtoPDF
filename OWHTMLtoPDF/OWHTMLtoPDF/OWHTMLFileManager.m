@@ -29,6 +29,8 @@
     [htmlstring enumerateSubstringsInRange:NSMakeRange(0, htmlstring.length) options:NSStringEnumerationBySentences usingBlock:^(NSString * _Nullable substring, NSRange substringRange, NSRange enclosingRange, BOOL * _Nonnull stop) {
         [centencesArr addObject:substring];
     }];
+    
+    NSLog(@"html array:%@",centencesArr);
     if (filledStrsDic) {
         NSArray *keysArr = [filledStrsDic allKeys];
         for (NSString *keyStr in keysArr) {

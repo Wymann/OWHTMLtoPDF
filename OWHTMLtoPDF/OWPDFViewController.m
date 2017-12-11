@@ -22,6 +22,7 @@
     self = [super init];
     if (self) {
         _pdfPath = pdfPath;
+        NSLog(@"1212:%@",_pdfPath);
     }
     return self;
 }
